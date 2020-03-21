@@ -1,0 +1,29 @@
+body {
+  background: $c-background;
+  font-family: "Public Sans", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+textarea,
+input,
+button,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
