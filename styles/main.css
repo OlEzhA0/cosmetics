@@ -1042,9 +1042,9 @@ p {
   position: absolute;
   z-index: 1;
   left: 0;
-  top: -150%;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s; }
+  top: -300%;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s; }
   .scroll__wrap {
     padding: 143px 0 0;
     position: relative; }
