@@ -11,7 +11,7 @@
   &__title-text {
     margin-bottom: 30px;
     text-align: center;
-    color: #344f10;
+    color: $c-textGreen;
     letter-spacing: 0.05em;
     font-size: 36px;
   }
@@ -24,13 +24,13 @@
   &__item {
     list-style-type: none;
     color: #828282;
-    font-size: 14px;
+    font-size: $fz14;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     font-weight: bold;
   }
   &--active {
-    color: #333;
+    color: $c-text333;
     position: relative;
     &::after {
       position: absolute;
@@ -81,16 +81,16 @@
   &__input {
     padding: 15px 0;
     margin-bottom: 30px;
-    background: #e4dfd3;
+    background: $c-oysterWhite;
     outline: none;
     border: none;
     border-bottom: 1px solid #bdbdbd;
-    font-size: 18px;
-    color: #333;
+    font-size: $fz18;
+    color: $c-text333;
     opacity: 0.8;
     &::placeholder {
       color: #828282;
-      font-size: 18px;
+      font-size: $fz18;
     }
     &:focus {
       opacity: 1;
@@ -106,16 +106,16 @@
   padding-left: 150px;
   &__text {
     text-transform: uppercase;
-    color: #333;
+    color: $c-text333;
     letter-spacing: 0.05em;
-    font-size: 14px;
+    font-size: $fz14;
     position: relative;
     width: 120px;
     padding: 10px;
     &::after {
       position: absolute;
       content: "";
-      background-color: #333;
+      background-color: $c-text333;
       width: 80px;
       height: 1px;
       left: -88px;
@@ -132,7 +132,7 @@
   margin-top: 66px;
   &__title {
     font-size: 42px;
-    color: #333;
+    color: $c-text333;
     font-weight: bold;
     margin-bottom: 25px;
   }
@@ -160,13 +160,13 @@
     width: 100%;
     z-index: 1;
     cursor: pointer;
-    
+
   }
   &__img {
     margin: 0 auto 12px;
   }
   &__desc {
-    color: #333;
+    color: $c-text333;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -203,7 +203,7 @@
   &__title-text {
     margin-bottom: 66px;
     text-align: center;
-    color: #333;
+    color: $c-text333;
     font-size: 20px;
     font-weight: bold;
   }

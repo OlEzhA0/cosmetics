@@ -20,13 +20,13 @@
   &__rights {
     position: absolute;
     bottom: 0;
-    color: #e4dfd3;
-    font-size: 18px;
+    color: $c-oysterWhite;
+    font-size: $fz18;
     text-transform: uppercase;
   }
   &__copyright {
-    color: #e4dfd3;
-    font-size: 18px;
+    color: $c-oysterWhite;
+    font-size: $fz18;
     text-transform: capitalize;
   }
   &__info {
@@ -36,8 +36,8 @@
   }
   &__info-link {
     margin-bottom: 20px;
-    color: #e4dfd3;
-    font-size: 18px;
+    color: $c-oysterWhite;
+    font-size: $fz18;
     text-decoration: none;
     transition: all 0.3s;
     &:hover {
@@ -71,8 +71,8 @@
   }
   &__link {
     text-decoration: none;
-    color: #e4dfd3;
-    font-size: 18px;
+    color: $c-oysterWhite;
+    font-size: $fz18;
     padding: 10px;
 
   }

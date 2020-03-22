@@ -18,7 +18,7 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
-    color: #344f10;
+    color: $c-textGreen;
   }
   &__quote {
     display: grid;
@@ -37,8 +37,8 @@
     display: block;
     position: relative;
     text-transform: capitalize;
-    font-size: 16px;
-    color: #333;
+    font-size: $fz16;
+    color: $c-text333;
     margin-bottom: 52px;
     &::before {
       position: absolute;

@@ -24,24 +24,24 @@
     width: 480px;
   }
   &__title {
-    color: #333;
-    font-size: 24px;
+    color: $c-text333;
+    font-size: $fz24;
   }
   &__price {
-    color: #344f10;
-    font-size: 18px;
+    color: $c-textGreen;
+    font-size: $fz18;
     margin: 25px 0;
   }
   &__weight {
-    color: #333;
-    font-size: 18px;
+    color: $c-text333;
+    font-size: $fz18;
     margin-bottom: 35px;
   }
   &__description {
-    color: #344f10;
+    color: $c-textGreen;
   }
   &__ing {
-    font-size: 16px;
+    font-size: $fz16;
     margin-bottom: 37px;
     width: 360px;
   }

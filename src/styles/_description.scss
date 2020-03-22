@@ -25,13 +25,13 @@
   }
   &__text {
     width: 380px;
-    color: #333;
-    font-size: 16px;
+    color: $c-text333;
+    font-size: $fz16;
   }
   &__title {
     margin-left: 120px;
     &--text {
-      color: #344f10;
+      color: $c-textGreen;
       text-transform: uppercase;
       letter-spacing: 0.05em;
       font-size: 23px;

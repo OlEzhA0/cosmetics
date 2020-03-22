@@ -1,7 +1,7 @@
 .scroll {
   width: 100vw;
   height: 100vh;
-  background-color: #333;
+  background-color: $c-text333;
   position: absolute;
   z-index: 1;
   left: 0;
@@ -24,8 +24,8 @@
     margin-bottom: 61px;
   }
   &__link {
-    color: #e4dfd3;
-    font-size: 18px;
+    color: $c-oysterWhite;
+    font-size: $fz18;
     text-decoration: none;
   }
   &__three-stick {
@@ -72,7 +72,7 @@
   position: absolute;
   width: 30px;
   height: 2px;
-  background-color: #344f10;
+  background-color: $c-textGreen;
   transition-duration: 0.3s;
 }
 
@@ -109,7 +109,7 @@
 .nav__toggler:checked ~ .menu-hamb > .menu__span,
 .nav__toggler:checked ~ .menu-hamb > .menu__span::after,
 .nav__toggler:checked ~ .menu-hamb > .menu__span::before {
-  background-color: #e4dfd3;
+  background-color: $c-oysterWhite;
 }
 
 .nav__toggler:checked ~ .menu-hamb > .menu__span {

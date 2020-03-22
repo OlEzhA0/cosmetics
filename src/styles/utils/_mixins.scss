@@ -1,7 +1,7 @@
 @mixin leftBar($top, $left) {
   color: rgba(52, 79, 16, 0.5);
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: $fz14;
   position: absolute;
   left: #{$left};
   top: #{$top};
@@ -11,7 +11,7 @@
     content: "";
     width: 100px;
     height: 1px;
-    background: #344f10;
+    background: $c-textGreen;
     left: -110px;
     bottom: 8px;
   }
@@ -24,6 +24,11 @@
 
 @mixin mobileWidth {
   width: 768px;
+  margin: 0 auto;
+}
+
+@mixin seWidth {
+  width: 320px;
   margin: 0 auto;
 }
 

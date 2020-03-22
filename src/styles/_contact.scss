@@ -15,15 +15,15 @@
     width: 480px;
   }
   &__title {
-    color: #344f10;
+    color: $c-textGreen;
     text-transform: capitalize;
     font-size: 36px;
     margin-bottom: 20px;
   }
   &__quote {
     text-transform: lowercase;
-    color: #333;
-    font-size: 24px;
+    color: $c-text333;
+    font-size: $fz24;
     margin-bottom: 20px;
     width: 365px;
   }
@@ -32,15 +32,15 @@
     flex-direction: column;
   }
   &__input {
-    background-color: #e4dfd3;
+    background-color: $c-oysterWhite;
     outline: none;
     border: none;
     padding: 11px 0;
     border-bottom: 1px solid #bdbdbd;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #333;
-    font-size: 18px;
+    color: $c-text333;
+    font-size: $fz18;
     text-transform: capitalize;
 
     &::placeholder {
@@ -62,11 +62,11 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     transition: all 0.3s 0.1s;
-    font-size: 16px;
+    font-size: $fz16;
     &:hover {
-      background: #e4dfd3;
+      background: $c-oysterWhite;
       font-size: 17px;
-      color: #333;
+      color: $c-text333;
       border: 2px solid #333;
       box-sizing: border-box;
     }

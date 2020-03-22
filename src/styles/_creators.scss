@@ -21,12 +21,12 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
-    color: #344f10;
+    color: $c-textGreen;
     font-size: 39px;
   }
   &__desc {
     margin-bottom: 35px;
-    color: #333;
+    color: $c-text333;
     font-size: 17px;
   }
   &__learn {

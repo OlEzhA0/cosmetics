@@ -20,8 +20,8 @@
 
     text-transform: uppercase;
 
-    color: #344f10;
-    font-size: 14px;
+    color: $c-textGreen;
+    font-size: $fz14;
     letter-spacing: 0.05em;
   }
   &__nav {
@@ -45,8 +45,8 @@
     text-decoration: none;
     padding: 10px;
 
-    font-size: 18px;
-    color: #344f10;
+    font-size: $fz18;
+    color: $c-textGreen;
 
   }
 }
