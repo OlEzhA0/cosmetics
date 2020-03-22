@@ -1588,9 +1588,9 @@ p {
     width: 320px;
     margin: 0 auto; }
     .header__wrap {
-      padding: 25px 20px 0; }
+      padding: 15px 20px 0; }
   .menu-hamb {
-    top: 20px;
+    top: 10px;
     -webkit-transform: translate(-340%);
             transform: translate(-340%); }
   .scroll__three-stick {
