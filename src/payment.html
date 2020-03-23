@@ -27,7 +27,7 @@
             <nav>
               <ul class="scroll__list">
                 <li class="scroll__item">
-                  <a href="#" class="scroll__link">
+                  <a href="index.html#shop" class="scroll__link">
                     Shop
                   </a>
                 </li>
@@ -64,17 +64,17 @@
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__item">
-                <a href="#shop" class="nav__link">
+                <a href="index.html#shop" class="nav__link">
                   Shop
                 </a>
               </li>
               <li class="nav__item">
-                <a href="#contact" class="nav__link">
+                <a href="index.html#contact" class="nav__link">
                   Contact
                 </a>
               </li>
               <li class="nav__item">
-                <a href="#about" class="nav__link">
+                <a href="index.html#about" class="nav__link">
                   About
                 </a>
               </li>
@@ -82,7 +82,7 @@
           </nav>
         </div>
         <div class="header__market">
-          <a href="#">
+          <a href="product.html">
             <img
               src="images/market.svg"
               alt="Image market"
@@ -135,8 +135,7 @@
                 <p class="choose__desc">
                   Credit card
                 </p>
-                <label for="card" class="choose-card">
-                </label>
+
               </div>
               <div class="choose__card">
                 <img
@@ -147,7 +146,6 @@
                 <p class="choose__desc">
                   Payment on delivery
                 </p>
-                <label for="dil" class="choose-dil"></label>
               </div>
               <form
                 action="confirm.html"
@@ -158,18 +156,19 @@
                   type="radio"
                   id="card"
                   name="card"
-                  class="choose__radio-card"
-                  onclick="alert('Card payment')"
+                  class="choose__radio-card choose__radio"
                   required
                 >
+                <label for="card" class="choose-card">
+                </label>
                 <input
                   type="radio"
                   id="dil"
                   name="card"
-                  class="choose__radio-dil"
-                  onclick="alert('dilevery payment')"
+                  class="choose__radio-dil choose__radio"
                   required
                 >
+                <label for="dil" class="choose-dil"></label>
                 <a href="google.com">
                   <button class="contact__button choose--button">
                     next

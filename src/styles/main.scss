@@ -30,14 +30,6 @@
   .checkout__title--mobile {
     display: none;
   }
-  .choose__card {
-    transition: all 0.2s;
-    &:hover {
-      background: #c9c0ad;
-      padding: 10px;
-      margin: -10px;
-    }
-  }
 }
 @media (max-width: 1279px) {
   .about__left-side,
@@ -490,14 +482,14 @@
       width: 186px;
     }
     &-dil {
-      top: 90px;
+      top: 100px;
       left: 50%;
-      transform: translate(-50%);
+      transform: translate(-45%);
     }
     &-card {
-      top: -25px;
+      top: -18px;
       left: 50%;
-      transform: translate(-50%);
+      transform: translate(-45%);
     }
     &--button {
       margin-top: 70px;
@@ -684,14 +676,16 @@
     &__wrap {
       margin-top: 60px;
       padding-left: 20px;
+      position: relative;
     }
     &__content {
       display: flex;
     }
     &__quote {
-      position: relative;
-      left: -125px;
+      position: absolute;
+      left: 50%;
       top: 95px;
+      transform: translate(-35%);
     }
     &__title {
       margin-bottom: 418px;
@@ -791,6 +785,9 @@
     }
     &__ing {
       width: 280px;
+    }
+    &__container {
+      height: 720px;
     }
   }
   .checkout {

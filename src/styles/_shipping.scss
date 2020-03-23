@@ -164,6 +164,7 @@
   }
   &__img {
     margin: 0 auto 12px;
+
   }
   &__desc {
     color: $c-text333;
@@ -178,6 +179,7 @@
     position: absolute;
     left: 0;
     top: 0;
+    z-index: 1;
   }
   &-dil {
     display: block;
@@ -186,6 +188,7 @@
     position: absolute;
     right: 0;
     top: 0;
+    z-index: 1;
   }
   &__radio-dil,
   &__radio-card {
@@ -215,4 +218,14 @@
 
 .choose__card:nth-child(2) {
   grid-area: deliv;
+}
+
+.choose__radio:checked + .choose-dil,
+.choose__radio:checked + .choose-card {
+  background: #c9c0ad;
+  padding: 10px;
+  margin: -10px;
+  opacity: 1;
+  z-index: -1;
+  cursor: pointer;
 }
